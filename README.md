@@ -18,5 +18,9 @@ Você pode visualizar a aplicação online [aqui](https://gabrielabade.github.io
 - HTML5
 - CSS3
 - JavaScript
+<div>
 
-![Preview do projeto](https://github.com/gabrielabade/lift-detox-card/blob/412613f5ee3e870e0d22f1a66df4a57e46b2bc94/preview-light.png)
+![Preview do projeto](https://github.com/gabrielabade/lift-detox-card/blob/bcf141f7cde063ae1523b774c8b32da7a6f5eba6/.github/preview-dark.png)
+
+![Preview do projeto](https://github.com/gabrielabade/lift-detox-card/blob/bcf141f7cde063ae1523b774c8b32da7a6f5eba6/.github/preview-light.png)
+</div>
