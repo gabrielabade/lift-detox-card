@@ -8,45 +8,141 @@
     rel="stylesheet">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lift Detox Black - Emagrecedor</title>
+  <title>Lift Detox Black - Emagrecedor Premium | Transformação Natural</title>
   <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
-  <div id="container">
-    <div id="profile">
-      <img src="assets/avatar.png" alt="avatar">
-      <br><br>
-      <div id="switch" onclick="toggleMode()">
-        <button></button>
-        <span></span>
+<div class="container">
+  <header>
+    <div class="theme-toggle">
+      <label class="theme-switch">
+        <input type="checkbox" id="themeToggle">
+        <span class="slider"></span>
+      </label>
+    </div>
+
+    <div class="logo-container">
+      <div class="logo-wrapper">
+        <img src="./assets/avatar.png" alt="Lift Detox Black Logo" class="logo" id="logoImage">
       </div>
-      <br>
-      <h2>Conquiste o corpo que você sempre quis!</h2>
-      <br>
-      <ul>
-        <li>&#10003; Emagrecimento rápido e saudável</li>
-        <li>&#10003; Redução de medidas e barriga chapada</li>
-        <li>&#10003; Apetite controlado e mais disposição</li>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Conquiste o Corpo dos Seus <span>Sonhos</span></h1>
+    <p>Descubra o segredo para uma transformação natural e duradoura com Lift Detox Black.</p>
+  </section>
+
+  <section class="benefits">
+    <div class="card">
+      <ul class="benefits-list">
+        <li>Emagrecimento rápido e saudável sem comprometer sua saúde</li>
+        <li>Redução de medidas visível e barriga mais chapada em poucas semanas</li>
+        <li>Apetite controlado naturalmente para evitar excessos alimentares</li>
+        <li>Metabolismo acelerado que potencializa a queima de gordura 24h por dia</li>
+        <li>Aumento de energia e disposição para suas atividades diárias</li>
       </ul>
-      <br>
-      <h4>Lift Detox Black: 100% natural, aprovado pela Anvisa com 30 dias de garantia para você se apaixonar!</h4>
-      <p>Dê o primeiro passo para sua transformação &darr;</p>
-    </div>
 
-    <div class="box-pulse" id="boxPulse">
-      <a class="comprar" target="_blank" href="https://app.monetizze.com.br/r/ATH24021569">Comprar agora</a>
-    </div>
+      <div class="guarantee-section">
+        <div class="guarantee-badge">
+          <span>30 DIAS GARANTIA</span>
+        </div>
+        <h3 class="guarantee-text">Lift Detox Black: Sua Transformação Garantida</h3>
+        <p class="guarantee-description">100% natural, aprovado pela Anvisa e com garantia de 30 dias para você
+          experimentar sem riscos. Se não ficar satisfeita, devolvemos seu investimento.</p>
 
-    <div id="social-links">
-      <a href="https://api.whatsapp.com/send?phone=555181285787" target="_blank"><ion-icon
-          name="logo-whatsapp"></ion-icon></a>
-          <a href="https://www.instagram.com/emagrecedormulheresmaes/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+        <p class="cta-text">Dê o primeiro passo para a transformação que você sempre sonhou</p>
+        <svg class="arrow-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 5v14M5 12l7 7 7-7" />
+        </svg>
+      </div>
+
+      <div class="cta-container">
+        <button class="cta-button pulse" id="ctaButton">
+          Quero Transformar Meu Corpo
+        </button>
+      </div>
     </div>
+  </section>
+
+  <section class="results-section">
+    <h2 class="section-title">Resultados Reais</h2>
+
+    <div class="testimonial-grid">
+      <div class="testimonial-card">
+        <div class="testimonial-rating">★★★★★</div>
+        <p class="testimonial-content">"Já tentei várias dietas e suplementos, mas o Lift Detox Black foi o único que
+          realmente funcionou para mim. Perdi 8kg em apenas 2 meses e minha autoestima voltou! Me sinto mais leve e com
+          muito mais disposição no dia a dia."</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">M</div>
+          <div>
+            <div class="testimonial-name">Mariana S.</div>
+            <div class="testimonial-info">Perdeu 8kg em 2 meses</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="testimonial-rating">★★★★★</div>
+        <p class="testimonial-content">"Como mãe de dois filhos, achei que nunca mais conseguiria recuperar minha forma.
+          O Lift Detox Black me ajudou a perder peso de forma saudável e sem efeito rebote. Minhas roupas voltaram a
+          servir e minha barriga está muito mais definida!"</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">C</div>
+          <div>
+            <div class="testimonial-name">Camila R.</div>
+            <div class="testimonial-info">Perdeu 10kg em 3 meses</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="testimonial-rating">★★★★★</div>
+        <p class="testimonial-content">"O que mais me impressionou foi como meu apetite ficou controlado! Já não sinto
+          aquela compulsão por doces e consigo manter uma alimentação saudável sem sofrimento. Em 45 dias perdi 6kg e
+          vários centímetros de cintura."</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">P</div>
+          <div>
+            <div class="testimonial-name">Patricia L.</div>
+            <div class="testimonial-info">Perdeu 6kg em 45 dias</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="social-links">
+    <a href="https://api.whatsapp.com/send?phone=555181285787" target="_blank" class="social-link"
+      aria-label="WhatsApp">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round">
+        <path
+          d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+        </path>
+      </svg>
+    </a>
+    <a href="https://www.instagram.com/emagrecedorparamamaes/" target="_blank" class="social-link"
+      aria-label="Instagram">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round">
+        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+      </svg>
+    </a>
   </div>
 
-  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <footer>
+    <img src="./assets/lift-detox.png" alt="Lift Detox Black" class="footer-logo" id="footerLogo">
+    <p class="footer-text">© 2025 Lift Detox Black. Todos os direitos reservados.</p>
+    <p class="footer-text">Desenvolvido por <a href="https://gbconnect.digital" class="footer-link"
+        target="_blank">gbconnect.digital</a></p>
+  </footer>
+</div>
 
   <script src="./script.js"></script>
 </body>
